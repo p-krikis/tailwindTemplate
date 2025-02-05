@@ -1,9 +1,9 @@
 export default function Intro() {
     return (
-        <div className="relative w-screen h-screen">
+        <div className="relative w-full h-screen">
             {/* Background Video */}
-            <div className="absolute top-0 left-0 w-full h-full -z-10 blur">
-                <video autoPlay muted loop className="object-cover w-full h-full">
+            <div className="absolute top-0 left-0 w-full h-full -z-10">
+                <video autoPlay muted loop className="object-cover w-full h-full backdrop-blur">
                     <source src="https://cdn.pixabay.com/video/2022/02/11/107430-678258659_large.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
