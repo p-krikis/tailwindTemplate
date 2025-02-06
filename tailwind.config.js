@@ -8,7 +8,6 @@ export default {
     extend: {
       fontFamily: {
         Iceberg: ['Iceberg', 'sans-serif'],
-        OohBaby: ['OohBaby', 'cursive'],
         SairaCondensed: ['Saira Condensed', 'sans-serif'],
       },
     },

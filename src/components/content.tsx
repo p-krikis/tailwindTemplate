@@ -1,14 +1,16 @@
+import DevStory from "./content/dev-story";
+import Story from "./content/story";
+import Viewer3D from "./content/viewer3d";
+
 export default function Content() {
     return (
-        <div className="relative w-full h-screen flex justify-center flex-row gap-8 p-8 bg-gray-200">
-           <div className="w-1/3 h-3/4 bg-gray-100 flex justify-start items-center flex-col gap-4 rounded-xl p-8">
-            <h3 className="font-Iceberg">Ascend | Operation: Skyfall</h3>
-            <p className="font-SairaCondensed">Story of the game revolves around a tactical operation [..]</p>
-           </div>
-           <div className="w-2/3 h-3/4 bg-gray-100 flex justify-center items-center flex-col gap-4 rounded-xl p-2">
-            <div className="w-full h-full bg-gray-200 flex justify-center items-center flex-col gap-4 rounded-lg">
+        <div className="relative w-full h-screen items-start flex justify-center flex-col gap-2 p-8 bg-gray-200">
+            <div className="flex h-full flex-row gap-4">
+                <Story />
+                <Viewer3D />
             </div>
-           </div>
+            
+           <DevStory />
         </div>
     );
 }
